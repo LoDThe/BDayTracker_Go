@@ -11,5 +11,5 @@ require (
 	github.com/petuhovskiy/telegram v0.0.0-20200207220211-6250cca70f10
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.6.0
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.7.0
 )
