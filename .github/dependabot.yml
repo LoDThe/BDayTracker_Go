@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: gomod
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "02:00"
+  open-pull-requests-limit: 10
+  reviewers:
+  - lodthe
+  assignees:
+  - lodthe
+  ignore:
+  - dependency-name: github.com/google/uuid
+    versions:
+    - 1.1.2
